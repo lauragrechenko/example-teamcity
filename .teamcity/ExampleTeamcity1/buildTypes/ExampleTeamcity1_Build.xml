@@ -3,6 +3,9 @@
   <name>Build</name>
   <description />
   <settings>
+    <options>
+      <option name="artifactRules" value="/opt/buildagent/work/*/target/*.jar" />
+    </options>
     <build-runners>
       <runner id="Maven2" name="" type="Maven2">
         <conditions>
