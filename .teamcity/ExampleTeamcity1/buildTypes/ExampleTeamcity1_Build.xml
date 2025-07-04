@@ -20,7 +20,6 @@
       </runner>
       <runner id="Maven_deploy" name="build step- deploy" type="Maven2">
         <conditions>
-          <does-not-contain name="teamcity.build.branch" value="master" />
           <contains name="teamcity.build.branch" value="master" />
         </conditions>
         <parameters>
